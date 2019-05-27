@@ -14,9 +14,9 @@ TESTING:
 In order to execute the script for testing you must have to:
 - run Cassandra
 - run Kafka Broker
-Execute the script init-cassandra.py to initialize the keyspace in Cassandra
-Execute meetup-getcities.py and meetup-getupcomingevents.py scripts in order to get the data from Meetup API.
-Execute meetup-getresults.py script to visualize the results.
+- Execute the script init-cassandra.py to initialize the keyspace in Cassandra
+- Execute meetup-getcities.py and meetup-getupcomingevents.py scripts in order to get the data from Meetup API.
+- Execute meetup-getresults.py script to visualize the results.
 
 DEPLOYMENT:
 In order to deploy the scripts, please follow the instructions in the project ocr-k8s-meetup
